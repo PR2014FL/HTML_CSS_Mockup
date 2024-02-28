@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- webpage I'm mocking is:   https://www.allrecipes.com/why-egg-prices-are-rising-again-feb-2024-8594665-->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>HTML_CSS_Mockup</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
+        <Header>
+            <a href="https://www.allrecipes.com/"><img src="assets/Logo.png" alt="all recipes" class="label"></a>
+            <form class="search-field" action="#">
+                <input type="text" placeholder="Find a recipe or ingredient" name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+            <div class="login">
+                <ul class="top-nav">
+                    <li>Log In</li>
+                    <li>Magazine</li>
+                    <li>Newsletters</li>
+                    <li>Sweepstakes</li>
+                </ul>
+            </div>
+        </Header>
+        <nav class="Dinners">
+            <ul class="second-nav">
+                <li class="Nav2">dinners</li>
+                <li class="Nav2">meals</li>
+                <li class="Nav2">ingredients</li>
+                <li class="Nav2">occasions</li>
+                <li class="Nav2">ciusines</li>
+                <li class="Nav2">kitchen tips</li>
+                <li class="Nav2">news</li>
+                <li class="Nav2">features</li>
+                <li class="Nav2">about us</li>
+                <li class="Nav2" id="Magazine">get the magazine</li>
+            </ul>
+        </nav>
+        <hr>
        
         <script src="app.js" async defer></script>
     </body>
