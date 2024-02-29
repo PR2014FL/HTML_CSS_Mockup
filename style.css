@@ -53,6 +53,14 @@ header {
     padding: 20px;
     
 }
+.food-nav {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
+    color: black;
+    margin-top: 30px
+}
 #Magazine  {
     color:rgb(213, 66, 21);
     padding-left: 25px;
@@ -64,4 +72,33 @@ display: flex;
 }
 li{
     padding: 10px;
+}
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size:48px;
+    font-weight: 700;
+    text-transform:capitalize;
+    margin-left:30px;
+
+}
+#eggs {
+    margin-left: 15px;
+}
+p {
+    margin-left:30px;
+}
+#Social{
+    margin-left: 800px;
+}
+.article {
+    width:643px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height:1.5rem;
+}
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-size:30px;
+    font-weight: 700;
+    text-transform:capitalize;
+    margin-left:30px;
 }
