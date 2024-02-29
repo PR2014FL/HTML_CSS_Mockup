@@ -5,7 +5,8 @@
 /* Style the search field */
 form.search-field input[type="text"] {
     padding: 10px;
-    font-size: 17px;
+    padding-top:12px;
+    font-size: 15px;
     border: 1px solid grey;
     float: left;
     width: 80%;
